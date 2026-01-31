@@ -1,0 +1,28 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+.ruler {
+  display: grid;
+  grid-template-columns: 200px 300px;
+  justify-content: center;
+  padding-top: 20px;
+  gap: 5px;
+}
+
+.left {
+  background-color: lightblue;
+}
+.right {
+  background-color: lightsalmon;
+}
+
+.ruler {
+  transform: scale(1.5);
+}
