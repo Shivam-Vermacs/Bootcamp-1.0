@@ -1,0 +1,40 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+.ruler {
+  display: grid;
+  grid-template-columns: 300px 600px;
+  justify-content: center;
+  padding-top: 50px;
+  gap: 10px;
+}
+.container {
+  background-color: lightcoral;
+  display: grid;
+}
+.left {
+  background-color: lightcoral;
+  display: grid;
+  justify-content: center;
+}
+.text {
+  display: block;
+}
+
+.text div {
+  display: inline;
+  margin-right: 5px;
+}
+.right {
+  background-color: lightblue;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
